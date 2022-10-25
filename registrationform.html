@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registerfor trip</title>
+</head>
+<body style="background:lightblue">
+    <center>
+        <form>
+            <h1>Trip to India</h1>
+            <h1>Register Here !!</h1>
+            <br><br>
+            <label for="name" >Full Name</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="members">Number Of Family Members:</label>
+            <input type="number" id="members" name="members" step="1" required>
+            <br><br>
+            <label for="contact">Contact Number:</label>
+            <input type="text" id="contact" name="contact" required>
+            <br><br>
+            <label for="date of travel">Date of travel</label>
+            <input type="date" id="date of travel" name="date of travel" required>
+            <br><br>
+            <label for="gmail">Gmail Address:</label>
+            <input type="text" id="gmail" name="gmail" required>
+            <br><br>
+            <label for="cities">Select which city you would like for trip?</label>
+            <select id="cities" name="cities" required>
+                <option value="hyderabad">Hyderabad</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="chennai">Chennai</option>
+                <option value="gujarat">Gujarat</option>
+            </select>
+            <br><br>
+            <p>Will you requiring any of the following?</p>
+            <p>hotel</p>
+            <label for="yes">yes</label>
+            <input type="radio" id="yes" value="yes" name="choose"> 
+            <br>
+            <label for="no">No</label>
+            <input type="radio" id="no" value="no" name="choose">
+            <br><br>
+            <p>Food</p>
+            <label for="yes">yes</label>
+            <input type="radio" id="yes" value="yes" name="choose"> 
+            <br>
+            <label for="no">No</label>
+            <input type="radio" id="no" value="no" name="choose" required>
+            <br><br>
+            <p>Choose the places you would like to visit</p>
+            <label for="charminar">Charminar</label>
+            <input type="checkbox" id="charminar" value="choice" name="charminar">
+            <label for="tajmahal">Tajmahal</label>
+            <input type="checkbox" id="tajmahal" value="choice" name="tajmahal">
+            <label for="ayodhya">Ayodhya</label>
+            <input type="checkbox" id="ayodhya" value="choice" name="ayodhya">
+            <label for="india gate">India gate</label>
+            <input type="checkbox" id="india gate" value="choice" name="india gate">
+            <br><br>
+            <p>Number of days like to stay</p>
+            <label for="days">Number of days</label>
+            <input type="range" id="days" name="days" min="1" max="10" step="1" required>
+            <br><br>
+            <label for="country">From which country you are</label>
+            <input type="text" list="countries" id="country" name="country" required>
+            <datalist id="countries">
+                <option value="india"></option>
+                <option value="london"></option>
+                <option value="south africa"></option>
+                <option value="dubai"></option>
+                <option value="bangladesh"></option>
+                <option value="afghanisthan"></option>
+                <option value="america"></option>
+                <option value="russia"></option>
+                <option value="china"></option>
+                <option value="srilanka"></option>
+                <option value="australia"></option>
+                <option value="newzealand"></option>
+                <br><br>
+            </datalist>
+            <br><br>
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comments" rows="5" cols="20"></textarea>
+            <br><br>
+            <input type="submit" value="send">
+        </form>
+        thank for your interest!!
+    </center>
+</body>
+</html>

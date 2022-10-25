@@ -1,0 +1,42 @@
+nav{
+    background-color: aquamarine;
+}
+center{
+    background-color: brown;
+}
+
+.column{
+    float: left;
+    padding: 5px;
+}
+footer{
+    text-align: center;
+    background-color: bisque;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: lightblue;
+	display: table;
+	width: 100%;
+}
+
+nav li {
+	display: table-cell;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 30px 30px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+ 
